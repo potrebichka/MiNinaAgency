@@ -1,35 +1,58 @@
-# React starter with Webpack
+# MiNina Agency
 
-- install npm
-- Bundle new code with `$ webpack`
-- Then run `npm run start`. This also runs `webpack-dev-server` to compile the project, and launches development server.
-- `localhost:8080` connects to the necessary endpoint
+#### _React: Agency Wensite, Last Update 02/13/2020_
 
-## Use ESLint
-1. Run the following command:
+## Description
+Create a company website incdules an "about us" and "our team" pages with photos and brief information.
+
+## Component Structure
 ```
-npm install eslint@4.13.1 -g
-npm install eslint@4.13.1 --save-dev
+src
+└── components
+    └── App
+        └── Header     
+            │       
+            └── Switch
+                └── Main
+                └── AboutUs
+                └── OurTeam
+                └── Portfolio
+                │      └── Content
+                └── Event
+                        └── EventCard
+
 ```
 
-2. Then run this command in the top level of project directory:
+## Installation:
+1. Clone this repo:
 ```
-eslint --init
+$ git clone this-repo-url
 ```
 
-3. Answer the questions then it automate `.eslintrc.json` file based on the answers.
+2. Install npm:
 
-### ESLint Rules in `.eslintrc.json`: 
-- `0` - off
-- `1` - warn
-- `2` - error
+```
+$ npm install
+```
 
-_ESLint for indentation is removed from this template_
+3. Run the project:
+```
+$ npm run start 
+```
 
-- Run `npm run lint` to check the project's lint
-- Run `npm run lint --fix` to check and fix the project's lint
+4. Open up localhost:8080
 
 
+## Known Bugs
+- No known bugs at this time
 
-## React-Router
-React-Router is installed.
+## Support and contact details
+Misaki Koonce: misaki.koonce@gmail.com
+
+Nina Potrebich: potrebich@gmail.com
+
+## Technologies Used
+Git, GitHub, ReactJS and Webpack
+
+## License
+Copyright © 2020 under the MIT License
