@@ -22,18 +22,21 @@ const OurTeam = () => {
     }
 
     const teamCard = {
-        width: '300px',
+        maxWidth: '300px',
         display: 'flex',
         alignItems: 'center',
         flexDirection: 'column',
-        marginRight: '20px;'
+        padding: '20px',
+        backgroundColor: 'rgba(255, 255, 255, 0.3)'
     }
 
     const teamImg = {
-        width: '200px'
+        maxHeight: '200px',
+        marginBottom: '20px'
     }
     return(
         <div style={teamFlex}>
+            {/* <h1>Board of Directors</h1> */}
             <div style={teamCard}>
                 <img style={teamImg} src={cat1} alt='Chairman' />
                 <p>Oliver</p>

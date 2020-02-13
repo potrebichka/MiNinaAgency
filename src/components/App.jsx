@@ -5,6 +5,7 @@ import Main from './Main'
 import AboutUs from './AboutUs'
 import OurTeam from './OurTeam'
 import NotFound from './NotFound'
+import Portfolio from './Portfolio'
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
                 <Route exact path='/' component={Main} />
                 <Route path='/about-us' component={AboutUs} />
                 <Route path='/our-team' component={OurTeam} />
+                <Route path='/portfolio' component={Portfolio} />
                 <Route component={NotFound} />
             </Switch>
         </div>
