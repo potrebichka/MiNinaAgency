@@ -1,9 +1,9 @@
-import React from "react"
+import React from 'react'
 import PropTypes from 'prop-types'
 
 const Content = (props) => {
     return (
-        <div className="content">
+        <div className='content'>
             <style jsx>{`
                 .content {
                     display: flex;
@@ -41,4 +41,4 @@ Content.propTypes = {
     description: PropTypes.string.isRequired
 }
 
-export default Content;
+export default Content

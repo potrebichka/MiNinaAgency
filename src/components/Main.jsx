@@ -9,10 +9,10 @@ const Main = () => {
         overflow: 'hidden'
     }
     const mainText = {
-        fontSize: "25px",
-        width: "70vw",
-        margin: "15vh",
-        textAlign: "center"
+        fontSize: '25px',
+        width: '70vw',
+        margin: '15vh',
+        textAlign: 'center'
     }
     return (
         <main style={mainStyling}>

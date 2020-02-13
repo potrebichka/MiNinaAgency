@@ -1,18 +1,18 @@
-import React from "react";
-import AboutUsImg from "../assets/images/about-us.jpeg"
+import React from 'react'
+import AboutUsImg from '../assets/images/about-us.jpeg'
 
 const AboutUs = () => {
     const AboutStyling = {
         background: `url(${AboutUsImg}) no-repeat center center fixed`,
-        height: "100vh",
-        overflow: "hidden",
-        backgroundSize: "cover"
+        height: '100vh',
+        overflow: 'hidden',
+        backgroundSize: 'cover'
     }
     const AboutUsText = {
-        fontSize: "25px",
-        width: "70vw",
-        margin: "15vh",
-        textAlign: "center"
+        fontSize: '25px',
+        width: '70vw',
+        margin: '15vh',
+        textAlign: 'center'
     }
     return (
         <div style={AboutStyling}>

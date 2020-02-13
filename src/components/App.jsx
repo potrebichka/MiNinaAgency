@@ -6,6 +6,7 @@ import AboutUs from './AboutUs'
 import OurTeam from './OurTeam'
 import NotFound from './NotFound'
 import Portfolio from './Portfolio'
+import Events from './Events'
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
                 <Route path='/about-us' component={AboutUs} />
                 <Route path='/our-team' component={OurTeam} />
                 <Route path='/portfolio' component={Portfolio} />
+                <Route path='/events' component={Events} />
                 <Route component={NotFound} />
             </Switch>
         </div>
