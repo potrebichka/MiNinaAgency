@@ -26,7 +26,7 @@ const Header = () => {
             <Link to='/' style={companyName}>MiNina Agency</Link>
             <nav style={nav}>
                 <Link to='/about-us' style={spacing}>About Us</Link>
-                <Link to='/our-team' style={spacing}>Our Team</Link>
+                <Link to='/our-team' style={spacing}>Meet Our Team</Link>
             </nav>
         </header>
     )

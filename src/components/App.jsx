@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom'
 import Header from './Header'
 import Main from './Main'
 import AboutUs from './AboutUs'
+import OurTeam from './OurTeam'
 import NotFound from './NotFound'
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
             <Switch>
                 <Route exact path='/' component={Main} />
                 <Route path='/about-us' component={AboutUs} />
+                <Route path='/our-team' component={OurTeam} />
                 <Route component={NotFound} />
             </Switch>
         </div>
