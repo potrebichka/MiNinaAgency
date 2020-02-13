@@ -2,6 +2,7 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Header from './Header'
 import Main from './Main'
+import AboutUs from './AboutUs'
 import NotFound from './NotFound'
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
             <Header />
             <Switch>
                 <Route exact path='/' component={Main} />
+                <Route path='/about-us' component={AboutUs} />
                 <Route component={NotFound} />
             </Switch>
         </div>
